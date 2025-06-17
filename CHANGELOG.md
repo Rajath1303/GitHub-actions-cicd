@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v2.0.1...v2.1.0) (2025-06-17)
+
+
+### Features
+
+* minor change ([51d5826](https://github.com/Rajath1303/GitHub-actions-cicd/commit/51d5826180a3c7205088431be5fa9ebac5ef9efb))
+
 ## [2.0.1](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v2.0.0...v2.0.1) (2025-06-17)
 
 
