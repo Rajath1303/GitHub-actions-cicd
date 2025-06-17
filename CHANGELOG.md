@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v1.1.1...v2.0.0) (2025-06-17)
+
+
+* Merge pull request [#6](https://github.com/Rajath1303/GitHub-actions-cicd/issues/6) from Rajath1303/breaking-change-cicd ([6d958dc](https://github.com/Rajath1303/GitHub-actions-cicd/commit/6d958dc14fb39cb467d22daa1ec98952bbbdabe0))
+
+
+### BREAKING CHANGES
+
+* cicd
+
 ## [1.1.1](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v1.1.0...v1.1.1) (2025-06-17)
 
 
