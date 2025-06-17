@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v2.0.0...v2.0.1) (2025-06-17)
+
+
+### Bug Fixes
+
+* testing patch ([0735137](https://github.com/Rajath1303/GitHub-actions-cicd/commit/0735137a9233e55c29ec8ea0f105afa24118f0c0))
+
 # [2.0.0](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v1.1.1...v2.0.0) (2025-06-17)
 
 
