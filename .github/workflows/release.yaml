@@ -1,9 +1,12 @@
 name: Semantic Release
 
 on:
-  push:
-    branches:
-      - uat
+    pull_request:
+        branches:
+            - uat
+        types:
+             - closed 
+  
 
 permissions:
     contents: write
