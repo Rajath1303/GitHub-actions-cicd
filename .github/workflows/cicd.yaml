@@ -14,5 +14,5 @@ jobs:
         with:
           node-version: '20'
       - run: npm install
-      - run: node index.js
+      - run: npm run dev
     
