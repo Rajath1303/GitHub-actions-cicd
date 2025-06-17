@@ -1,3 +1,13 @@
+# [3.0.0](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v2.2.0...v3.0.0) (2025-06-17)
+
+
+* "feat!: drop legacy API ([c1ad666](https://github.com/Rajath1303/GitHub-actions-cicd/commit/c1ad666e91ba3f6d18432c3acee758604467c735))
+
+
+### BREAKING CHANGES
+
+* This removes the legacy API and old endpoints."
+
 # [2.2.0](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v2.1.0...v2.2.0) (2025-06-17)
 
 
