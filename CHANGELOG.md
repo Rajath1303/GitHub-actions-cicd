@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v1.0.0...v1.1.0) (2025-06-17)
+
+
+### Features
+
+* testing ([e851a9e](https://github.com/Rajath1303/GitHub-actions-cicd/commit/e851a9ea3d711d3aae45f97d6b47bed15a0b6077))
+
 # 1.0.0 (2025-06-17)
 
 
