@@ -1,3 +1,10 @@
+# [3.1.0-rc.1](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v3.0.1-rc.1...v3.1.0-rc.1) (2025-06-30)
+
+
+### Features
+
+* testing sever ([ea87085](https://github.com/Rajath1303/GitHub-actions-cicd/commit/ea87085f7a14e9505e89e4ce125ca8f9509e0952))
+
 ## [3.0.1-rc.1](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v3.0.0...v3.0.1-rc.1) (2025-06-30)
 
 
