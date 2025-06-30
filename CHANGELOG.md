@@ -1,3 +1,10 @@
+# [3.1.0-rc.2](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v3.1.0-rc.1...v3.1.0-rc.2) (2025-06-30)
+
+
+### Bug Fixes
+
+* testing semver ([653236b](https://github.com/Rajath1303/GitHub-actions-cicd/commit/653236b89b05208d3eebcbd5ead03f1aad4304c4))
+
 # [3.1.0-rc.1](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v3.0.1-rc.1...v3.1.0-rc.1) (2025-06-30)
 
 
