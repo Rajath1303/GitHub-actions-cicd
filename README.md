@@ -68,11 +68,11 @@ Check the **Actions** tab and **Releases** tab on GitHub to verify.
 
 ## 📂 Important Files
 
-| File                          | Purpose                                           |
-|------------------------------|---------------------------------------------------|
-| `.github/workflows/release.yaml` | GitHub Actions workflow for semantic release  |
-| `.releaserc`                  | Configuration for semantic-release plugins       |
-| `CHANGELOG.md`           | Automatically updated changelog for UAT branch   |
+| File                             | Purpose                                        |
+| -------------------------------- | ---------------------------------------------- |
+| `.github/workflows/release.yaml` | GitHub Actions workflow for semantic release   |
+| `.releaserc`                     | Configuration for semantic-release plugins     |
+| `CHANGELOG.md`                   | Automatically updated changelog for UAT branch |
 
 ---
 
@@ -80,11 +80,11 @@ Check the **Actions** tab and **Releases** tab on GitHub to verify.
 
 Semantic Release uses Conventional Commits:
 
-| Prefix     | Purpose        | Version Bump |
-|------------|----------------|--------------|
-| `fix:`     | Bug fix        | Patch        |
-| `feat:`    | New feature    | Minor        |
-| `feat!:` or `BREAKING CHANGE:` | Breaking change | Major    |
+| Prefix                         | Purpose         | Version Bump |
+| ------------------------------ | --------------- | ------------ |
+| `fix:`                         | Bug fix         | Patch        |
+| `feat:`                        | New feature     | Minor        |
+| `feat!:` or `BREAKING CHANGE:` | Breaking change | Major        |
 
 ---
 
