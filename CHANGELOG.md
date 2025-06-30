@@ -1,3 +1,16 @@
+# [3.1.0](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v3.0.0...v3.1.0) (2025-06-30)
+
+
+### Bug Fixes
+
+* testing pre release ([27ff188](https://github.com/Rajath1303/GitHub-actions-cicd/commit/27ff1886b96b22f8732fb3e9d0686cbd1855534c))
+* testing semver ([653236b](https://github.com/Rajath1303/GitHub-actions-cicd/commit/653236b89b05208d3eebcbd5ead03f1aad4304c4))
+
+
+### Features
+
+* testing sever ([ea87085](https://github.com/Rajath1303/GitHub-actions-cicd/commit/ea87085f7a14e9505e89e4ce125ca8f9509e0952))
+
 # [3.1.0-rc.2](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v3.1.0-rc.1...v3.1.0-rc.2) (2025-06-30)
 
 
