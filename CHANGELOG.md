@@ -1,3 +1,10 @@
+## [3.0.1-rc.1](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v3.0.0...v3.0.1-rc.1) (2025-06-30)
+
+
+### Bug Fixes
+
+* testing pre release ([27ff188](https://github.com/Rajath1303/GitHub-actions-cicd/commit/27ff1886b96b22f8732fb3e9d0686cbd1855534c))
+
 # [3.0.0](https://github.com/Rajath1303/GitHub-actions-cicd/compare/v2.2.0...v3.0.0) (2025-06-17)
 
 
