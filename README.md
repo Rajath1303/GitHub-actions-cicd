@@ -3,7 +3,7 @@
 This project automates the release process using **Semantic Release** and **GitHub Actions**.
 
 - ✅ Automatic version bumping in `package.json`
-- 📝 Automatic changelog generation (`CHANGELOG.uat.md`)
+- 📝 Automatic changelog generation (`CHANGELOG.md`)
 - 📦 GitHub Releases based on commit messages
 
 ---
@@ -13,7 +13,7 @@ This project automates the release process using **Semantic Release** and **GitH
 - Listens for pull request **merges into `uat`**
 - Analyzes commits using Conventional Commits
 - Increments the version according to commit type
-- Updates `CHANGELOG.uat.md`
+- Updates `CHANGELOG.md`
 - Pushes a new tag and creates a GitHub Release
 
 ---
@@ -59,7 +59,7 @@ Then open a PR to merge it into `uat`.
 Once you merge the PR into `uat`, GitHub Actions will trigger:
 
 - `package.json` version will bump
-- `CHANGELOG.uat.md` will update
+- `CHANGELOG.md` will update
 - A GitHub release will be created with version and commit log
 
 Check the **Actions** tab and **Releases** tab on GitHub to verify.
@@ -68,11 +68,11 @@ Check the **Actions** tab and **Releases** tab on GitHub to verify.
 
 ## 📂 Important Files
 
-| File                          | Purpose                                           |
-|------------------------------|---------------------------------------------------|
-| `.github/workflows/release.yaml` | GitHub Actions workflow for semantic release  |
-| `.releaserc`                  | Configuration for semantic-release plugins       |
-| `CHANGELOG.uat.md`           | Automatically updated changelog for UAT branch   |
+| File                             | Purpose                                        |
+| -------------------------------- | ---------------------------------------------- |
+| `.github/workflows/release.yaml` | GitHub Actions workflow for semantic release   |
+| `.releaserc`                     | Configuration for semantic-release plugins     |
+| `CHANGELOG.md`                   | Automatically updated changelog for UAT branch |
 
 ---
 
@@ -80,11 +80,11 @@ Check the **Actions** tab and **Releases** tab on GitHub to verify.
 
 Semantic Release uses Conventional Commits:
 
-| Prefix     | Purpose        | Version Bump |
-|------------|----------------|--------------|
-| `fix:`     | Bug fix        | Patch        |
-| `feat:`    | New feature    | Minor        |
-| `feat!:` or `BREAKING CHANGE:` | Breaking change | Major    |
+| Prefix                         | Purpose         | Version Bump |
+| ------------------------------ | --------------- | ------------ |
+| `fix:`                         | Bug fix         | Patch        |
+| `feat:`                        | New feature     | Minor        |
+| `feat!:` or `BREAKING CHANGE:` | Breaking change | Major        |
 
 ---
 
@@ -92,13 +92,3 @@ Semantic Release uses Conventional Commits:
 
 - CI/CD only runs on PR merges to `uat`.
 - The default GitHub token (`secrets.GITHUB_TOKEN`) is used for authentication.
-- `CHANGELOG.uat.md` is not merged into `main` to avoid conflicts.
-- If you want different changelog behavior in `main`, set up a separate workflow and changelog file.
-
----
-
-## 🔮 Optional Enhancements
-
-- Add `main` branch release workflow using `CHANGELOG.md`
-- Add npm publish for production releases
-- Automatically sync `uat` changelog into `main` if needed (with manual or scripted control)
